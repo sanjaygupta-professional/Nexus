@@ -1,0 +1,245 @@
+🔍 Searching for all tests in the monorepo (Cypress, Playwright, Cucumber, Unit)...
+===================================================================================
+📦 Discovering all MFEs...
+📁 Test files found: 358
+
+🧪 Analyzing tests by domain, MFE, and framework...
+====================================================
+
+🧪 Finding unit tests (*.spec.ts outside e2e directories)...
+📁 Unit test files found: 1940
+
+📊 COMPREHENSIVE TEST BREAKDOWN
+===============================
+| Domain            | MFE                              | Framework  | Type        | Files  | Tests  |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+| account           | discount-mfe                     | Playwright | Integrated  | 3      | 12     |
+|                   | discount-mfe                     | Playwright | Local       | 2      | 13     |
+|                   | discount-mfe                     | Unit       | Unit        | 13     | 45     |
+|                   | entertainment-management-mfe     | Playwright | Integrated  | 39     | 251    |
+|                   | entertainment-management-mfe     | Playwright | Local       | 1      | 49     |
+|                   | entertainment-management-mfe     | Unit       | Unit        | 54     | 679    |
+|                   | manage-dtv-limits-mfe            | Playwright | Local       | 2      | 28     |
+|                   | manage-dtv-limits-mfe            | Unit       | Unit        | 8      | 159    |
+|                   | option-management-mfe            | Playwright | Local       | 1      | 1      |
+|                   | option-management-mfe            | Unit       | Unit        | 5      | 7      |
+|                   | product-mfe                      | Cypress    | Local       | 15     | 31     |
+|                   | product-mfe                      | Unit       | Unit        | 44     | 435    |
+|                   |                                  |            |             |        |        |
+|                   | **Subtotal**                     | Cypress    | Local       | 15     | 31     |
+|                   | **Subtotal**                     | Playwright | Local       | 6      | 91     |
+|                   | **Subtotal**                     | Playwright | Integrated  | 42     | 263    |
+|                   | **Subtotal**                     | Unit       | Unit        | 124    | 1325   |
+|                   | **Domain Total**                 |            |             | 187    | 1710   |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+| activate          | address-checker-mfe              | Cypress    | Local       | 2      | 6      |
+|                   | address-checker-mfe              | Unit       | Unit        | 33     | 135    |
+|                   | entertainment-mfe                | Cypress    | Local       | 2      | 6      |
+|                   | entertainment-mfe                | Playwright | Integrated  | 2      | 3      |
+|                   | entertainment-mfe                | Unit       | Unit        | 14     | 55     |
+|                   | journey-overview-mfe             | Playwright | Local       | 4      | 16     |
+|                   | journey-overview-mfe             | Unit       | Unit        | 22     | 249    |
+|                   | self-install-mfe                 | Playwright | Local       | 4      | 4      |
+|                   | self-install-mfe                 | Unit       | Unit        | 15     | 242    |
+|                   | sim-management-mfe               | Cypress    | Local       | 5      | 66     |
+|                   | sim-management-mfe               | Playwright | Integrated  | 2      | 3      |
+|                   | sim-management-mfe               | Unit       | Unit        | 20     | 136    |
+|                   |                                  |            |             |        |        |
+|                   | **Subtotal**                     | Cypress    | Local       | 9      | 78     |
+|                   | **Subtotal**                     | Playwright | Local       | 8      | 20     |
+|                   | **Subtotal**                     | Playwright | Integrated  | 4      | 6      |
+|                   | **Subtotal**                     | Unit       | Unit        | 104    | 817    |
+|                   | **Domain Total**                 |            |             | 125    | 921    |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+| base-customerzone | dashboard-mfe                    | Cypress    | Local       | 23     | 66     |
+|                   | dashboard-mfe                    | Playwright | Integrated  | 21     | 104    |
+|                   | dashboard-mfe                    | Unit       | Unit        | 30     | 170    |
+|                   |                                  |            |             |        |        |
+|                   | **Subtotal**                     | Cypress    | Local       | 23     | 66     |
+|                   | **Subtotal**                     | Playwright | Integrated  | 21     | 104    |
+|                   | **Subtotal**                     | Unit       | Unit        | 30     | 170    |
+|                   | **Domain Total**                 |            |             | 74     | 340    |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+| base-payments     | topup-mfe                        | Playwright | Local       | 1      | 8      |
+|                   | topup-mfe                        | Unit       | Unit        | 18     | 231    |
+|                   |                                  |            |             |        |        |
+|                   | **Subtotal**                     | Playwright | Local       | 1      | 8      |
+|                   | **Subtotal**                     | Unit       | Unit        | 18     | 231    |
+|                   | **Domain Total**                 |            |             | 19     | 239    |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+| billing           | barrings-mfe                     | Playwright | Integrated  | 5      | 27     |
+|                   | barrings-mfe                     | Playwright | Local       | 1      | 15     |
+|                   | barrings-mfe                     | Unit       | Unit        | 11     | 46     |
+|                   | consult-dtv-usage-mfe            | Playwright | Local       | 2      | 25     |
+|                   | consult-dtv-usage-mfe            | Unit       | Unit        | 11     | 156    |
+|                   | hardware-invoice-mfe             | Playwright | Integrated  | 3      | 7      |
+|                   | hardware-invoice-mfe             | Playwright | Local       | 1      | 3      |
+|                   | hardware-invoice-mfe             | Unit       | Unit        | 14     | 49     |
+|                   | invoice-mfe                      | Playwright | Integrated  | 14     | 42     |
+|                   | invoice-mfe                      | Playwright | Local       | 9      | 66     |
+|                   | invoice-mfe                      | Unit       | Unit        | 59     | 478    |
+|                   | limits-mfe                       | Playwright | Integrated  | 2      | 22     |
+|                   | limits-mfe                       | Playwright | Local       | 1      | 12     |
+|                   | limits-mfe                       | Unit       | Unit        | 21     | 102    |
+|                   | mobile-usage-details-mfe         | Playwright | Local       | 1      | 1      |
+|                   | mobile-usage-details-mfe         | Unit       | Unit        | 5      | 6      |
+|                   | mobile-usage-mfe                 | Playwright | Local       | 1      | 12     |
+|                   | mobile-usage-mfe                 | Unit       | Unit        | 17     | 74     |
+|                   | payment-mfe                      | Playwright | Integrated  | 1      | 4      |
+|                   | payment-mfe                      | Playwright | Local       | 1      | 16     |
+|                   | payment-mfe                      | Unit       | Unit        | 33     | 151    |
+|                   | payment-overview-mfe             | Playwright | Local       | 2      | 22     |
+|                   | payment-overview-mfe             | Unit       | Unit        | 1      | 1      |
+|                   | shared                           | Unit       | Unit        | 10     | 30     |
+|                   | yup-offers-mfe                   | Playwright | Local       | 2      | 12     |
+|                   | yup-offers-mfe                   | Unit       | Unit        | 16     | 122    |
+|                   |                                  |            |             |        |        |
+|                   | **Subtotal**                     | Playwright | Local       | 21     | 184    |
+|                   | **Subtotal**                     | Playwright | Integrated  | 25     | 102    |
+|                   | **Subtotal**                     | Unit       | Unit        | 198    | 1215   |
+|                   | **Domain Total**                 |            |             | 244    | 1501   |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+| connectivity      | home-network-mfe                 | Playwright | Local       | 2      | 22     |
+|                   | home-network-mfe                 | Unit       | Unit        | 39     | 315    |
+|                   |                                  |            |             |        |        |
+|                   | **Subtotal**                     | Playwright | Local       | 2      | 22     |
+|                   | **Subtotal**                     | Unit       | Unit        | 39     | 315    |
+|                   | **Domain Total**                 |            |             | 41     | 337    |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+| engagement        | care-service-cases-mfe           | Cypress    | Local       | 3      | 8      |
+|                   | care-service-cases-mfe           | Unit       | Unit        | 16     | 52     |
+|                   | engagement-dashboard-mfe         | Playwright | Integrated  | 9      | 24     |
+|                   | engagement-dashboard-mfe         | Playwright | Local       | 1      | 1      |
+|                   | engagement-dashboard-mfe         | Unit       | Unit        | 11     | 105    |
+|                   | inbox-messages-mfe               | Cypress    | Local       | 2      | 2      |
+|                   | inbox-messages-mfe               | Playwright | Integrated  | 2      | 2      |
+|                   | inbox-messages-mfe               | Unit       | Unit        | 14     | 64     |
+|                   | privacy-management-mfe           | Playwright | Local       | 1      | 1      |
+|                   | privacy-management-mfe           | Unit       | Unit        | 24     | 106    |
+|                   | products-mfe                     | Playwright | Integrated  | 10     | 37     |
+|                   | products-mfe                     | Playwright | Local       | 1      | 1      |
+|                   | products-mfe                     | Unit       | Unit        | 42     | 292    |
+|                   | profile-management-mfe           | Cypress    | Local       | 2      | 2      |
+|                   | profile-management-mfe           | Unit       | Unit        | 56     | 325    |
+|                   | support-mfe                      | Playwright | Integrated  | 1      | 3      |
+|                   | support-mfe                      | Playwright | Local       | 1      | 1      |
+|                   | support-mfe                      | Unit       | Unit        | 5      | 49     |
+|                   |                                  |            |             |        |        |
+|                   | **Subtotal**                     | Cypress    | Local       | 7      | 12     |
+|                   | **Subtotal**                     | Playwright | Local       | 4      | 4      |
+|                   | **Subtotal**                     | Playwright | Integrated  | 22     | 66     |
+|                   | **Subtotal**                     | Unit       | Unit        | 168    | 993    |
+|                   | **Domain Total**                 |            |             | 201    | 1075   |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+| fleet             | account                          | Unit       | Unit        | 3      | 6      |
+|                   | fleet-mfe                        | Cypress    | Local       | 44     | 376    |
+|                   | fleet-mfe                        | Unit       | Unit        | 87     | 555    |
+|                   |                                  |            |             |        |        |
+|                   | **Subtotal**                     | Cypress    | Local       | 44     | 376    |
+|                   | **Subtotal**                     | Unit       | Unit        | 90     | 561    |
+|                   | **Domain Total**                 |            |             | 134    | 937    |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+| foundation        | demo-mfe                         | Playwright | Local       | 4      | 6      |
+|                   | demo-mfe                         | Unit       | Unit        | 13     | 53     |
+|                   | general-mfe                      | Cypress    | Local       | 1      | 6      |
+|                   | general-mfe                      | Unit       | Unit        | 49     | 395    |
+|                   | ionic-portal-shell               | Playwright | Local       | 1      | 6      |
+|                   | ionic-portal-shell               | Unit       | Unit        | 9      | 67     |
+|                   | monorepo-storybook               | Cypress    | Local       | 1      | 1      |
+|                   | monorepo-storybook               | Unit       | Unit        | 1      | 3      |
+|                   |                                  |            |             |        |        |
+|                   | **Subtotal**                     | Cypress    | Local       | 2      | 7      |
+|                   | **Subtotal**                     | Playwright | Local       | 5      | 12     |
+|                   | **Subtotal**                     | Unit       | Unit        | 72     | 518    |
+|                   | **Domain Total**                 |            |             | 79     | 537    |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+| install           | appointments-mfe                 | Playwright | Local       | 4      | 8      |
+|                   | appointments-mfe                 | Unit       | Unit        | 58     | 517    |
+|                   | appointments-spa                 | Playwright | Local       | 7      | 8      |
+|                   | appointments-spa                 | Unit       | Unit        | 1      | 1      |
+|                   | product-journey-mfe              | Cypress    | Local       | 3      | 6      |
+|                   | product-journey-mfe              | Unit       | Unit        | 18     | 143    |
+|                   | return-devices-mfe               | Cypress    | Local       | 2      | 6      |
+|                   | return-devices-mfe               | Unit       | Unit        | 18     | 59     |
+|                   |                                  |            |             |        |        |
+|                   | **Subtotal**                     | Cypress    | Local       | 5      | 12     |
+|                   | **Subtotal**                     | Playwright | Local       | 11     | 16     |
+|                   | **Subtotal**                     | Unit       | Unit        | 95     | 720    |
+|                   | **Domain Total**                 |            |             | 111    | 748    |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+| marketing         | marketing-mfe                    | Cypress    | Local       | 19     | 19     |
+|                   | marketing-mfe                    | Unit       | Unit        | 75     | 485    |
+|                   | roaming-international            | Unit       | Unit        | 14     | 82     |
+|                   |                                  |            |             |        |        |
+|                   | **Subtotal**                     | Cypress    | Local       | 19     | 19     |
+|                   | **Subtotal**                     | Unit       | Unit        | 89     | 567    |
+|                   | **Domain Total**                 |            |             | 108    | 586    |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+| plugins           | aem-monorepo-plugin              | Unit       | Unit        | 2      | 5      |
+|                   | ddd                              | -          | -           | 0      | 0      |
+|                   | mfe                              | Unit       | Unit        | 1      | 1      |
+|                   | sales-lib                        | Unit       | Unit        | 3      | 3      |
+|                   |                                  |            |             |        |        |
+|                   | **Subtotal**                     | Unit       | Unit        | 6      | 9      |
+|                   | **Domain Total**                 |            |             | 6      | 9      |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+| sales             | address-form-field               | Unit       | Unit        | 5      | 27     |
+|                   | customer-registration-mfe        | Playwright | Local       | 10     | 90     |
+|                   | customer-registration-mfe        | Unit       | Unit        | 74     | 955    |
+|                   | hardware-checkout                | Unit       | Unit        | 55     | 240    |
+|                   | northstar-configurator-mfe       | Playwright | Local       | 1      | 1      |
+|                   | northstar-configurator-mfe       | Unit       | Unit        | 29     | 47     |
+|                   | one-configurator                 | Unit       | Unit        | 10     | 80     |
+|                   | order-configurator-mfe           | Cucumber   | Local       | 46     | 229    |
+|                   | order-configurator-mfe           | Unit       | Unit        | 271    | 2906   |
+|                   | product-finder                   | Unit       | Unit        | 36     | 234    |
+|                   | product-offering-mfe             | Playwright | Local       | 1      | 1      |
+|                   | product-offering-mfe             | Unit       | Unit        | 63     | 272    |
+|                   | products-details                 | Unit       | Unit        | 13     | 63     |
+|                   | sales-mfe                        | Cypress    | Local       | 3      | 35     |
+|                   | sales-mfe                        | Unit       | Unit        | 36     | 229    |
+|                   | shared                           | Unit       | Unit        | 44     | 271    |
+|                   | tools                            | -          | -           | 0      | 0      |
+|                   |                                  |            |             |        |        |
+|                   | **Subtotal**                     | Cypress    | Local       | 3      | 35     |
+|                   | **Subtotal**                     | Playwright | Local       | 12     | 92     |
+|                   | **Subtotal**                     | Cucumber   | Local       | 46     | 229    |
+|                   | **Subtotal**                     | Unit       | Unit        | 636    | 5324   |
+|                   | **Domain Total**                 |            |             | 697    | 5680   |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+| shared            | account                          | Unit       | Unit        | 1      | 2      |
+|                   | config                           | Unit       | Unit        | 2      | 5      |
+|                   | datalayer                        | Unit       | Unit        | 3      | 31     |
+|                   | form                             | Unit       | Unit        | 117    | 613    |
+|                   | ionic-portal                     | Unit       | Unit        | 3      | 20     |
+|                   | layout                           | Unit       | Unit        | 4      | 34     |
+|                   | message                          | Unit       | Unit        | 4      | 46     |
+|                   | ocapi                            | Unit       | Unit        | 17     | 232    |
+|                   | omapi                            | Unit       | Unit        | 10     | 153    |
+|                   | omapi-query                      | Unit       | Unit        | 6      | 26     |
+|                   | page                             | Unit       | Unit        | 25     | 250    |
+|                   | personalisation                  | Unit       | Unit        | 13     | 58     |
+|                   | shared                           | Unit       | Unit        | 13     | 99     |
+|                   | sofy                             | Unit       | Unit        | 21     | 133    |
+|                   | step-flow                        | Unit       | Unit        | 7      | 103    |
+|                   | udl                              | Unit       | Unit        | 23     | 314    |
+|                   |                                  |            |             |        |        |
+|                   | **Subtotal**                     | Unit       | Unit        | 269    | 2119   |
+|                   | **Domain Total**                 |            |             | 269    | 2119   |
+|-------------------|----------------------------------|------------|-------------|--------|--------|
+|                   | **Cypress Total**                |            |             | 127    | 636    |
+|                   | **Playwright Total**             |            | Local       | 70     | 449    |
+|                   | **Playwright Total**             |            | Integrated  | 114    | 541    |
+|                   | **Cucumber Total**               |            |             | 46     | 229    |
+|                   | **Unit Total**                   |            |             | 1938   | 14884  |
+|                   | **GRAND TOTAL**                  |            |             | 2295   | 16739  |
+
+📈 SUMMARY
+==========
+Total test files: 2295
+Total test cases: 16739
+  - Cypress: 636 tests in 127 files
+  - Playwright: 990 tests in 184 files
+  - Cucumber: 229 scenarios in 46 files
+  - Unit: 14884 tests in 1938 files
+Domains covered: 14
